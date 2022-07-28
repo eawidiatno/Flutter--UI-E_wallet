@@ -27,7 +27,7 @@ class RegisterPage extends StatelessWidget {
                 height: 150,
                 child: Center(
                   child: Image(
-                    image: AssetImage("Logo.png"),
+                    image: AssetImage("logo-splash.png"),
                   ),
                 ),
               ),

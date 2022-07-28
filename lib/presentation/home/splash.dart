@@ -27,7 +27,7 @@ class splash extends StatelessWidget {
             child: Container(
                 width: Get.width * 0.75,
                 height: Get.width * 0.75,
-                child: Image.asset("Logo.png")),
+                child: Image.asset("logo-splash.png")),
           ),
           //Image.asset("Logo.png"),
         ),

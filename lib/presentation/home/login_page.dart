@@ -1,4 +1,5 @@
 import 'package:e_wallet/presentation/dashboard/dashboard_page.dart';
+import 'package:e_wallet/presentation/home/main_page.dart';
 import 'package:e_wallet/presentation/home/register_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
@@ -7,7 +8,7 @@ import 'package:get/get.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
-  static final String TAG = '/';
+  static final String TAG = '/login_page';
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +30,7 @@ class LoginPage extends StatelessWidget {
               height: 200,
               child: Center(
                 child: Image(
-                  image: AssetImage("Logo.png"),
+                  image: AssetImage("logo-splash.png"),
                 ),
               ),
             ),
@@ -108,7 +109,7 @@ class LoginPage extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 20),
               width: 10,
               child: ElevatedButton(
-                onPressed: () => Get.toNamed(DashboardPage.TAG),
+                onPressed: () => Get.toNamed(MainPage.TAG),
                 child: Text(
                   "Login",
                   style: TextStyle(

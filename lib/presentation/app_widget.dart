@@ -20,9 +20,9 @@ class AppWidget extends StatelessWidget {
             return GetMaterialApp(
               title: 'INDO - Pay',
               getPages: Routes.getPages,
-              // theme: ThemeData(
-              //   primarySwatch: Colors.blue,
-              // ),
+              theme: ThemeData(
+                primarySwatch: Colors.blue,
+              ),
               home: LoginPage(),
             );
           }
